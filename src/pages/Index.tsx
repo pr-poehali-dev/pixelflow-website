@@ -314,12 +314,12 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <img 
-                src="https://cdn.poehali.dev/files/logoza.ru.png" 
-                alt="Столовая №7" 
+                src="https://cdn.poehali.dev/files/PixelFlow.png" 
+                alt="PixelFlow" 
                 className="h-12 w-auto"
               />
             </div>
-            <p className="text-white/70">© 2024 Столовая №7. Все права защищены</p>
+            <p className="text-white/70">© 2024 PixelFlow. Все права защищены</p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
                 <Icon name="Instagram" size={20} />

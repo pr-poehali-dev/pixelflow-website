@@ -37,9 +37,9 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <img 
-                src="https://cdn.poehali.dev/files/logoza.ru.png" 
-                alt="Столовая №7" 
-                className="h-12 w-auto"
+                src="https://cdn.poehali.dev/files/PixelFlow.png" 
+                alt="PixelFlow" 
+                className="h-14 w-auto"
               />
             </div>
             <nav className="hidden md:flex items-center gap-8">
@@ -316,7 +316,7 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/PixelFlow.png" 
                 alt="PixelFlow" 
-                className="h-12 w-auto"
+                className="h-14 w-auto"
               />
             </div>
             <p className="text-white/70">© 2024 PixelFlow. Все права защищены</p>

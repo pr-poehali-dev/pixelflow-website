@@ -316,7 +316,7 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/PixelFlow.png" 
                 alt="PixelFlow" 
-                className="h-14 w-auto"
+                className="h-14 w-auto mix-blend-lighten"
               />
             </div>
             <p className="text-white/70">© 2024 PixelFlow. Все права защищены</p>

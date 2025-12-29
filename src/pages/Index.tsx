@@ -36,10 +36,11 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-xl">PF</span>
-              </div>
-              <span className="font-heading font-bold text-xl text-foreground">PixelFlow</span>
+              <img 
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="Столовая №7" 
+                className="h-12 w-auto"
+              />
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <button onClick={() => scrollToSection('home')} className="text-muted-foreground hover:text-primary transition-colors">
@@ -312,12 +313,13 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-xl">PF</span>
-              </div>
-              <span className="font-heading font-bold text-xl">PixelFlow</span>
+              <img 
+                src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                alt="Столовая №7" 
+                className="h-12 w-auto"
+              />
             </div>
-            <p className="text-white/70">© 2024 PixelFlow. Все права защищены</p>
+            <p className="text-white/70">© 2024 Столовая №7. Все права защищены</p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
                 <Icon name="Instagram" size={20} />
